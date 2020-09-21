@@ -1,2 +1,9 @@
-The city council has recently made a pledge to try and reduce the number of injury collisions in their city after a high-profile case involving a kid getting injured made national news.  To do this, they pulled up collision data to see which factors (if any) can predict if an accident will be property damage or an injury collision.  
-They want to see what factors have significant correlation with SEVERITYCODE, and from there try to come up with specific solutions (such as improved streetlights or fixing certain intersections) that will reduce the overall number of injury collisions. 
+The city council has recently made a pledge to try and reduce the number of injury collisions in their city after a high-profile case involving a kid getting injured made national news.  However, they currently disagree on what the most effective solution for this is. 
+They've pulled up the SDOT accident collision data to see which factors (if any) can predict if an accident will be property damage or an injury collision.  
+From there, they can see which factor has the greatest predictive power, and implement the appropriate solution. 
+Here are some of the different competing factors (and solutions) that many of the city council members believe are the root cause: 
+1. Certain locations are dangerous, so if this has the highest correlation, then we need to find the intersections with the highest number of accidents to fix them.
+2. Time of day may play a large role, so if this has the highest correlation, then we may need to install more streetlights.
+3. The type of address (Block, Intersection, Alley) and Collision (Rear-end, Left Turn, etc.) may play a role, which means reviewing how the city approaches designing those types of roadways.
+4. Weather or road-condition may play a role.
+5. Other miscellaneous factors, such as # of pedestrians or bikes, may play a role. 
